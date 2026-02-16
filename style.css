@@ -236,11 +236,11 @@ body > p {
 /* Responsive Design */
 @media (max-width: 768px) {
   .timeline {
-    flex-direction: row;
-    overflow-x: auto;
-    overflow-y: hidden;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 20px;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: y mandatory;
   }
 
   .timeline::before {
